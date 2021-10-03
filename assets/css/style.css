@@ -1,0 +1,580 @@
+/* Defult CSS */
+@font-face {
+    font-family: Circular Std;
+    src: url(../fonts/Circular-Normal.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Circular Std;
+    src: url(../fonts/Circular-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Circular Std;
+    src: url(../fonts/Circular-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Circular Std;
+    src: url(../fonts/Circular-Black.ttf);
+    font-weight: 900;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container-small {
+    max-width: 920px;
+}
+
+
+/* Typograpgy */
+body {
+    font-family: Circular Std;
+    color: #5A687B;
+    font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 42px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.015em;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h4.barlow {
+    font-family: Barlow;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.055em;
+}
+
+.btn-icon-left {
+    margin-right: 2px;
+}
+
+.btn-icon-right {
+    margin-left: 2px;
+}
+
+.button-primary {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #6F6F6F;
+    border: 1px solid #EEEEEE;
+    border-radius: 33px;
+    padding: 6px 14px;
+}
+
+.button-primary-white {
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 52px;
+    padding: 8px 20px;
+    font-weight: 700;
+}
+
+.button-primary-white:hover {
+    color: #FFFFFF;
+}
+
+.button-secondary {
+    font-family: Barlow;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.055em;
+    color: #FFFFFF;
+    background: #DC0B0B;
+    border-radius: 33px;
+    padding: 6px 16px;
+    font-weight: 700;
+}
+
+.button-secondary:hover {
+    color: #FFFFFF;
+}
+
+.button-secondary-circular {
+    font-size: 14px;
+    letter-spacing: -0.055em;
+    color: #FFFFFF;
+    background: #DC0B0B;
+    border-radius: 33px;
+    padding: 6px 16px;
+    font-weight: 700;
+}
+
+.button-secondary-circular:hover {
+    color: #FFFFFF;
+}
+
+.button-red {
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #D31919;
+    border-radius: 5px;
+    padding: 9px 24px;
+}
+
+.button-red:hover {
+    color: #FFFFFF;
+}
+
+.section-header-primary {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header-primary h1 {
+    margin-bottom: 0;
+}
+
+.section-header-secondary {
+    margin-bottom: 50px;
+}
+
+.red {
+    color: #D92E23;
+}
+
+
+/* Header Area */
+header .topbar {
+    padding: 8px 0 7px;
+    border-bottom: 1px solid #F8F8F8;;
+}
+
+header .topbar span {
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: rgba(113, 113, 113, 0.67);
+    margin-right: auto;
+}
+
+header .topbar .button-primary {
+    margin-right: 9px;
+}
+
+header .navigation-menu {
+    padding: 10px 0;
+}
+
+header .navigation-menu .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header .navigation-menu .menu ul li {
+    display: inline-block;
+    margin-right: 27px;
+}
+
+header .navigation-menu .menu ul li:last-child {
+    margin-right: 0;
+}
+
+header .navigation-menu .menu ul li a {
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #626161;
+}
+
+
+/* Booking Form Section */
+#booking-form-section {
+    padding: 50px 0 0;
+}
+
+#booking-form-section .booking-form-box {
+    max-width: 904px;
+    width: 100%;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 11px;
+    padding: 16px 17px 24px;
+}
+
+#booking-form-section .booking-form-box .primary-inputs {
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin-bottom: 26px;
+}
+
+#booking-form-section .booking-form-box .primary-inputs .input-item {
+    width: 25%;
+    padding: 10px 15px;
+    border-right: 1px solid #EEEEEE;
+    position: relative;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5A687B;
+}
+
+#booking-form-section .booking-form-box .primary-inputs .input-item:last-of-type {
+    border-right: none;
+}
+
+#booking-form-section .booking-form-box .primary-inputs .input-item .icon {
+    max-width: 20px;
+    margin-right: 5px;
+}
+
+#booking-form-section .booking-form-box .primary-inputs .input-item .select-primary-toggle {
+    user-select: none;
+    cursor: pointer;
+    padding: 10px 5px;
+}
+
+#booking-form-section .booking-form-box .primary-inputs .input-item input {
+    border: none;
+    cursor: pointer;
+    width: calc(100% - 25px);
+    font-size: 14px;
+    line-height: 18px;
+    color: #5A687B;
+}
+
+#booking-form-section .booking-form-box .primary-inputs .input-item input#datePicker {
+    padding: 10px 5px;
+}
+
+#booking-form-section .booking-form-box .primary-inputs .input-item input.quantity-field {
+    width:20px;
+    text-align: right;
+}
+
+#booking-form-section .booking-form-box .primary-inputs .input-item input:focus {
+    outline: 0;
+}
+
+#booking-form-section .booking-form-box .primary-inputs .input-item .input-group img {
+    cursor: pointer;
+}
+
+#booking-form-section .booking-form-box .primary-inputs .select-primary-dropdown {
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #EEE;
+    padding: 0;
+    margin-top: -10px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    z-index: 1;
+    height: 150px;
+    overflow-y: scroll;
+    display: none;
+}
+
+#booking-form-section .booking-form-box .primary-inputs .select-primary-dropdown li a {
+    padding: 15px;
+    display: block;
+    color: #5A687B;
+}
+
+#booking-form-section .booking-form-box .primary-inputs .select-primary-dropdown li a {
+    padding: 15px;
+    display: block;
+    color: #5A687B;
+}
+
+#booking-form-section .booking-form-box .primary-inputs .select-primary-dropdown li a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+#booking-form-section .booking-form-box .primary-inputs .select-primary-dropdown li a span {
+    margin-right: 5px;
+}
+
+#booking-form-section .booking-form-box .details-box {
+    margin-bottom: 10px;
+}
+
+#booking-form-section .booking-form-box .details-box h4 {
+    margin-bottom: 24px;
+}
+
+#booking-form-section .booking-form-box .details-box input {
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #5A687B;
+    min-height: 37px;
+}
+
+#booking-form-section .booking-form-box .details-box .input-group-btn {
+    border: 1px solid #E2E2E2;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+}
+
+#booking-form-section .booking-form-box .details-box .input-group-btn button {
+    font-size: 14px;
+    color: #5A687B;
+    padding: 5px 10px;
+}
+
+#booking-form-section .booking-form-box .details-box .input-group-btn ul {
+    font-size: 14px;
+    color: #5A687B;
+    padding: 10px;
+    width: 50px;
+}
+
+#booking-form-section .booking-form-box .details-box .input-group-btn ul a {
+    font-size: 14px;
+    color: #5A687B;
+    padding: 5px 0;
+    display: block;
+}
+
+#booking-form-section .booking-form-box .details-box .input-group-btn ul a:hover {
+    text-decoration: none;
+}
+
+#booking-form-section .booking-form-box .details-box #txt-search {
+    border-radius: 0 5px 5px 0;
+}
+
+#booking-form-section .booking-form-box .form-group {
+    margin-bottom: 15px;
+}
+
+#booking-form-section .custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #DC0B0B;
+    background-color: #DC0B0B;
+}
+
+#booking-form-section .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: none;
+}
+
+#booking-form-section .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+    border-color: #DC0B0B;
+}
+
+#booking-form-section .button-box label {
+    font-size: 11px;
+    text-transform: capitalize;
+    color: rgba(113, 113, 113, 0.67);
+    line-height: 25px;
+}
+
+
+/* Why Swissdog Section */
+#why-swissdog-section {
+    padding: 150px 0;
+    background: #FBFBFB;
+    margin-top: -50px;
+}
+
+#why-swissdog-section .heading-icon {
+    margin-bottom: 20px;
+}
+
+#why-swissdog-section p {
+    line-height: 158.5%;
+    color: #5A687B;
+    margin-bottom: 15px;
+}
+
+#why-swissdog-section hr {
+    border-top: 1px solid #EFEFEF;
+    margin: 25px 0 35px;
+}
+
+
+/* CTA Primary Section */
+#cta-primary-section {
+    color: #fff;
+    background-image: url(../img/cta-primary/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 620px;
+    position: relative;
+    padding: 350px 0 90px;
+}
+
+#cta-primary-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.92) 100%);
+}
+
+#cta-primary-section .quote-box {
+    max-width: 430px;
+    width: 100%;
+    position: relative;
+}
+
+#cta-primary-section .quote-box h1 {
+    color: #fff;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+#cta-primary-section .quote-box h1:before {
+    content: url(../img/icons/quote.png);
+    position: absolute;
+    top: -28px;
+    left: -5px;
+}
+
+#cta-primary-section .quote-box h1:after {
+    content: url(../img/icons/quote.png);
+    position: absolute;
+    bottom: -14px;
+    right: -10px;
+}
+
+#cta-primary-section .quote-box span {
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 156.5%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-left: 15px;
+}
+
+#cta-primary-section .cta-box {
+    margin-top: 65px;
+}
+
+#cta-primary-section .cta-box h4 {
+    font-family: Circular Std;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+
+#cta-primary-section .cta-box .button-primary-white {
+    margin-right: 10px;
+}
+
+
+/* What We Can Do Seciton */
+#what-we-can-do-section {
+    padding: 150px 0 135px;
+}
+
+#what-we-can-do-section .what-we-can-do-item {
+    margin-bottom: 80px;
+}
+
+#what-we-can-do-section .what-we-can-do-item .icon {
+    margin-bottom: 30px;
+}
+
+#what-we-can-do-section .what-we-can-do-item h4 {
+    margin-bottom: 20px;
+}
+
+
+/* CTA Secondary Section */
+#cta-secondary-section {
+    background: linear-gradient(268.71deg, #DC0B0B 79.78%, #FC4848 108.08%);
+    padding: 37px 0 43px;
+    color: #fff;
+}
+
+#cta-secondary-section h4 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#cta-secondary-section .button-primary-white:first-of-type {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+
+/* Footer */
+footer {
+    padding: 76px 0 150px;
+}
+
+footer .footer-logo {
+    margin-bottom: 34px;
+}
+
+footer .quicklinks ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    columns: 3;
+}
+
+footer .quicklinks ul li {
+    margin-bottom: 12px;
+}
+
+footer .quicklinks ul a {
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 146%;
+    color: #575757;
+}
+
+footer .link {
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 146%;
+    color: #FF0000;
+    margin-bottom: 13px;
+    display: block;
+}
