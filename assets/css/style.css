@@ -68,8 +68,6 @@ h4 {
 
 h4.barlow {
     font-family: Barlow;
-    font-weight: normal;
-    font-size: 20px;
     line-height: 24px;
     letter-spacing: -0.055em;
 }
@@ -163,6 +161,25 @@ h4.barlow {
 
 .section-header-secondary {
     margin-bottom: 50px;
+}
+
+.section-header-secondary h1 {
+    color: #DC0B0B;
+    margin-bottom: 20px;
+}
+
+.section-header-secondary p {
+    font-size: 32px;
+    color: #000000;
+    max-width: 436px;
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 100.5%;
+}
+
+.section-header-secondary .quote {
+    font-size: 16px;
+    color: #000000;
 }
 
 .red {
@@ -583,4 +600,27 @@ footer .link {
     color: #FF0000;
     margin-bottom: 13px;
     display: block;
+}
+
+
+/* Destinations Section */
+#destinations-section {
+    padding: 66px 0 63px;
+}
+
+#destinations-section .destinations-box .destination-item img {
+    margin-bottom: 41px;
+}
+
+#destinations-section .destinations-box .destination-item h2 {
+    font-size: 20px;
+    line-height: 110%;
+    letter-spacing: 0.015em;
+    margin-bottom: 9px;
+}
+
+#destinations-section .destinations-box .destination-item h3 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 18px;
 }
