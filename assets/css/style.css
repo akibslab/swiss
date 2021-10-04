@@ -173,18 +173,22 @@ h4.barlow {
 /* Header Area */
 header .topbar {
     padding: 8px 0 7px;
-    border-bottom: 1px solid #F8F8F8;;
+    border-bottom: 1px solid #F8F8F8;
 }
 
-header .topbar span {
+header .tagline {
     font-size: 11px;
     line-height: 14px;
     text-transform: capitalize;
     color: rgba(113, 113, 113, 0.67);
-    margin-right: auto;
+}
+
+header .navigation-menu .tagline {
+    display: none;
 }
 
 header .topbar .button-primary {
+    margin-left: auto;
     margin-right: 9px;
 }
 
@@ -212,6 +216,10 @@ header .navigation-menu .menu ul li a {
     line-height: 15px;
     text-transform: capitalize;
     color: #626161;
+}
+
+header .mobile-menu {
+    display: none;
 }
 
 
@@ -400,7 +408,6 @@ header .navigation-menu .menu ul li a {
     font-size: 11px;
     text-transform: capitalize;
     color: rgba(113, 113, 113, 0.67);
-    line-height: 25px;
 }
 
 
@@ -434,7 +441,6 @@ header .navigation-menu .menu ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 620px;
     position: relative;
     padding: 350px 0 90px;
 }
@@ -474,7 +480,7 @@ header .navigation-menu .menu ul li a {
     content: url(../img/icons/quote.png);
     position: absolute;
     bottom: -14px;
-    right: -10px;
+    right: 8;
 }
 
 #cta-primary-section .quote-box span {

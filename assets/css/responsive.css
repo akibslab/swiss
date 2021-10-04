@@ -9,7 +9,9 @@
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
-
+	#cta-primary-section .cta-box {
+		width: 100%;
+	}
 }
 
 
@@ -18,7 +20,107 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
+	.slicknav_menu {
+		padding: 0;
+		background: none;
+	}
 
+	.slicknav_btn {
+		margin: 0;
+		background-color: #DC0B0B;
+	}
+
+	.slicknav_nav {
+		position: absolute;
+		top: 100%;
+		width: 100%;
+		left: 0;
+		background: #333;
+		z-index: 10;
+	}
+
+	header .menu {
+		display: none;
+	}
+
+	header .mobile-menu {
+	    display: block;
+	}
+
+	header .logo {
+		width: 80px;
+	}
+
+	header .topbar .tagline {
+		display: none;
+	}
+
+	header .navigation-menu .tagline {
+	    display: block;
+		font-size: 10px;
+	}
+
+	#booking-form-section .booking-form-box .primary-inputs {
+		border: none;
+		box-shadow: none;
+	}
+
+	#booking-form-section .booking-form-box .primary-inputs .input-item {
+		width: 100%;
+		border-right: none;
+		border: 1px solid #F2F2F2;
+		box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
+		margin-bottom: 10px;
+		padding: 5px 10px;
+		min-height: 50px;
+	}
+
+	#why-swissdog-section {
+		padding: 150px 0 50px;
+	}
+
+	#booking-form-section .button-box label {
+		line-height: 15px;
+		margin-bottom: 15px;
+	}
+
+	#why-swissdog-section .why-swissdog {
+		margin-bottom: 50px;
+	}
+
+	#why-swissdog-section hr {
+	    margin: 0 0 35px;
+	}
+
+	#cta-primary-section {
+	    padding: 100px 0 50px;
+	}
+
+	#what-we-can-do-section {
+	    padding: 100px 0 85px;
+	}
+
+	#what-we-can-do-section .what-we-can-do-item {
+	    margin-bottom: 50px;
+	}
+
+	#cta-secondary-section .button-primary-white:first-of-type {
+		margin-left: initial;
+	}
+
+	#cta-secondary-section h4 {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	footer {
+	    padding: 50px 0;
+	}
+
+	footer .quicklinks ul {
+	    columns: 2;
+	    margin-bottom: 50px;
+	}
 }
 
 
