@@ -12,7 +12,7 @@
         <link rel="icon" href="assets/img/" type="image/gif">
 
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -22,6 +22,8 @@
         <link rel="stylesheet" href="assets/vendor/flag-icon-css/css/flag-icon.min.css">
         <!-- jQuery Datetimepicker -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css" integrity="sha512-f0tzWhCwVFS3WeYaofoLWkTP62ObhewQ1EZn65oSYDZUg1+CyywGKkWzm8BxaJj5HGKI72PnMH9jYyIFz+GH7g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- Style CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
         <!-- Responsive CSS -->
@@ -138,7 +140,7 @@
         </section>
         <!-- Destinations Section End -->
 
-        <!--Fleet Flying Section Start-->
+        <!-- Fleet Flying Section Start -->
         <div id="fleet-flying-section">
             <div class="container container-small">
                 <div class="row">
@@ -149,10 +151,11 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
 
-                <div class="row">
-                    <div class="col-md-3">
+                <div class="owl-carousel" id="fleet-flying-carousel">
+                    <div class="">
                         <div class="fleet-item">
                             <img src="assets/img/fleet/1.png" alt="">
                             <div class="text-box">
@@ -172,7 +175,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="">
                         <div class="fleet-item">
                             <img src="assets/img/fleet/1.png" alt="">
                             <div class="text-box">
@@ -192,7 +195,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="">
                         <div class="fleet-item">
                             <img src="assets/img/fleet/1.png" alt="">
                             <div class="text-box">
@@ -215,7 +218,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="">
                         <div class="fleet-item">
                             <img src="assets/img/fleet/1.png" alt="">
                             <div class="text-box">
@@ -237,6 +240,7 @@
                     </div>
                 </div>
 
+                <div class="container container-small">
                 <div class="booking-box">
                     <div class="row">
                         <div class="col-md-12">
@@ -249,8 +253,21 @@
                 </div>
             </div>
         </div>
-        <!--Fleet Flying Section End-->
+        <!-- Fleet Flying Section End -->
 
+         <!-- CTA Secondary Section Start -->
+         <section id="cta-secondary-section">
+            <div class="container container-small">
+                <div class="row">
+                    <div class="col-md-12 d-flex flex-wrap align-items-center">
+                        <h4>Book a private flight now</h4>
+                        <a href="mailto:fly@swissdog.com" class="btn button-primary-white">fly@swissdog.com</a>
+                        <a href="tel:+35795170170" class="btn button-primary-white">+357 95 170 170</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CTA Secondary Section End -->
 
         <!-- Footer Area Start -->
         <footer>
@@ -305,6 +322,8 @@
         <script src="assets/vendor/slicknav/js/jquery.slicknav-1.0.10.min.js"></script>
         <!-- jQuery Datetimepicker -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js" integrity="sha512-AIOTidJAcHBH2G/oZv9viEGXRqDNmfdPVPYOYKGy3fti0xIplnlgMHUGfuNRzC6FkzIo0iIxgFnr9RikFxK+sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- Owl Carousel JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <!-- IsoTope -->
         <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
         <!-- Main JS -->
