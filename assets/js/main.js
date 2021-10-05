@@ -16,6 +16,31 @@
 			}
 		});
 
+		// Fleet flying Area Carousel
+        $("#fleet-flying-carousel").owlCarousel({
+            loop: true,
+            nav: false,
+            dots: false,
+            margin: 17,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                576: {
+                    items: 2,
+                },
+                768: {
+                    items: 2,
+                },
+                992: {
+                    items: 3,
+                },
+                1200: {
+                    items: 4,
+                }
+            }
+        });
+
     	// Slicknav
 		$('#main-menu').slicknav({
 	        closeOnClick: true,
