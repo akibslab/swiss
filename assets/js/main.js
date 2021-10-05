@@ -3,6 +3,19 @@
 
     jQuery(document).ready(function($){
 
+
+
+		// destinations-isotop
+		$('.destinations-list').isotope({
+			// set itemSelector so .grid-sizer is not used in layout
+			itemSelector: '.destination-box',
+			percentPosition: true,
+			masonry: {
+			// use element for option
+			columnWidth: '.destination-box'
+			}
+		});
+
     	// Slicknav
 		$('#main-menu').slicknav({
 	        closeOnClick: true,
