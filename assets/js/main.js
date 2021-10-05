@@ -67,13 +67,13 @@
 
 
 		// Booking Form From/To Dropdown
-		$('#booking-form-section .primary-inputs .select-primary-toggle').on('click',function(){
+		$('.booking-form-box .primary-inputs .select-primary-toggle').on('click',function(){
 			$(this).next('.select-primary-dropdown').toggle();
 		});
 
 		$(document).mouseup(function(e) 
 		{
-		    var container = $('#booking-form-section .primary-inputs .select-primary-dropdown');
+		    var container = $('.booking-form-box .primary-inputs .select-primary-dropdown');
 
 		    // if the target of the click isn't the container nor a descendant of the container
 		    if (!container.is(e.target) && container.has(e.target).length === 0) 
@@ -83,7 +83,7 @@
 		});
 
 
-		$('#booking-form-section .primary-inputs .select-primary-dropdown').find('a').click(function(e) {
+		$('.booking-form-box .primary-inputs .select-primary-dropdown').find('a').click(function(e) {
 	        e.preventDefault();
 	        var cat = $(this).attr("data-code");
 	        $(this).parents('.input-item').find('.select-primary-label').text(cat);
@@ -92,7 +92,7 @@
 	    });
 
 		// Booking Form Country Code Dropdown
-		$('#booking-form-section .details-box .select-primary-dropdown').find('a').click(function(e) {
+		$('.booking-form-box .details-box .select-primary-dropdown').find('a').click(function(e) {
 	        e.preventDefault();
 	        var cat = $(this).attr("data-code");
 	        $(this).parents('.input-group').find('.select-primary-label').text(cat);
