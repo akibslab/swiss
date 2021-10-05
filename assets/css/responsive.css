@@ -121,6 +121,22 @@
 	    columns: 2;
 	    margin-bottom: 50px;
 	}
+
+	#destinations-section {
+	    padding: 25px 0;
+	}
+
+	#destinations-section .destinations-box .destination-box:first-of-type {
+	    padding-top: 60px;
+	}
+
+	#fleet-flying-section {
+	    padding: 60px 0;
+	}
+
+	#fleet-flying-section .booking-box {
+	    margin-top: 50px;
+	}
 }
 
 
