@@ -158,6 +158,15 @@ h4.barlow {
 .section-header-primary h1 {
     margin-bottom: 0;
 }
+.section-header-primary h3 {
+    margin-bottom: 30px;
+}
+.section-header-primary p {
+    max-width: 691px;
+    font-size: 17px;
+    width: 100%;
+    margin: 0 auto;
+}
 
 .section-header-secondary {
     margin-bottom: 50px;
@@ -608,6 +617,12 @@ footer .link {
     padding: 66px 0 63px;
 }
 
+#destinations-section .destinations-box .destination-item {
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto 50px;
+}
+
 #destinations-section .destinations-box .destination-item img {
     margin-bottom: 41px;
 }
@@ -623,4 +638,295 @@ footer .link {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 18px;
+}
+
+/* Hero Section */
+#hero-section {
+    background: #333;
+    color: #fff;
+    padding: 170px 0 140px;
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+}
+
+#hero-section #myVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 110%;
+    min-height: 110%;
+}
+
+#hero-section .top-area {
+    margin-bottom: 90px;
+}
+
+#hero-section .top-area h1 {
+    font-weight: 900;
+    font-size: 62px;
+    line-height: 108.5%;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 13px;
+}
+
+#hero-section .top-area ul {
+    font-size: 16px;
+    line-height: 156.5%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#hero-section .top-area ul li {
+    display: inline-block;
+    position: relative;
+    padding-right: 30px;
+}
+
+#hero-section .top-area ul li:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    width: 5px;
+    height: 5px;
+    margin-top: -2.5px;
+    border-radius: 50%;
+    background: #FF0000;
+}
+
+#hero-section .top-area ul li:last-child {
+    padding-right: 0;
+}
+
+#hero-section .top-area ul li:last-child:after {
+    display: none;
+}
+
+#hero-section .booking-form-box .primary-inputs {
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin-bottom: 26px;
+    background: #fff;
+}
+
+#hero-section .booking-form-box .primary-inputs .inputs-wrpr {
+    width: calc(100% - 87px);
+}
+
+#hero-section .booking-form-box .primary-inputs .button-wrpr {
+    width: 87px;
+}
+
+#hero-section .booking-form-box .primary-inputs .button-wrpr a {
+    background: #E22727;
+    color: #fff;
+    display: block;
+    height: 100%;
+    text-align: center;
+    padding: 19px 5px;
+    font-size: 12px;
+    font-family: Poppins;
+    text-transform: uppercase;
+    border-radius: 0 8px 8px 0;
+}
+
+#hero-section .booking-form-box .primary-inputs .button-wrpr a:hover {
+    text-decoration: none;
+}
+
+#hero-section .booking-form-box .primary-inputs .input-item {
+    width: 25%;
+    padding: 10px 15px;
+    border-right: 1px solid #EEEEEE;
+    position: relative;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5A687B;
+}
+
+#hero-section .booking-form-box .primary-inputs .input-item:last-of-type {
+    border-right: none;
+}
+
+#hero-section .booking-form-box .primary-inputs .input-item .icon {
+    max-width: 20px;
+    margin-right: 5px;
+}
+
+#hero-section .booking-form-box .primary-inputs .input-item .select-primary-toggle {
+    user-select: none;
+    cursor: pointer;
+    padding: 10px 5px;
+}
+
+#hero-section .booking-form-box .primary-inputs .input-item input {
+    border: none;
+    cursor: pointer;
+    width: calc(100% - 25px);
+    font-size: 14px;
+    line-height: 18px;
+    color: #5A687B;
+}
+
+#hero-section .booking-form-box .primary-inputs .input-item input#datePicker {
+    padding: 10px 5px;
+}
+
+#hero-section .booking-form-box .primary-inputs .input-item input.quantity-field {
+    width:20px;
+    text-align: right;
+}
+
+#hero-section .booking-form-box .primary-inputs .input-item input:focus {
+    outline: 0;
+}
+
+#hero-section .booking-form-box .primary-inputs .input-item .input-group img {
+    cursor: pointer;
+}
+
+#hero-section .booking-form-box .primary-inputs .select-primary-dropdown {
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #EEE;
+    padding: 0;
+    margin-top: -10px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    z-index: 1;
+    height: 150px;
+    overflow-y: scroll;
+    display: none;
+}
+
+#hero-section .booking-form-box .primary-inputs .select-primary-dropdown li a {
+    padding: 15px;
+    display: block;
+    color: #5A687B;
+}
+
+#hero-section .booking-form-box .primary-inputs .select-primary-dropdown li a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+#hero-section .booking-form-box .primary-inputs .select-primary-dropdown li a span {
+    margin-right: 5px;
+}
+
+#hero-section .booking-form-box .details-box h4 {
+    margin-bottom: 24px;
+}
+
+#hero-section .booking-form-box .details-box input {
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #5A687B;
+    min-height: 37px;
+}
+
+#hero-section .booking-form-box .details-box .input-group-btn {
+    border: 1px solid #E2E2E2;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+}
+
+#hero-section .booking-form-box .details-box .input-group-btn button {
+    font-size: 14px;
+    color: #5A687B;
+    padding: 5px 10px;
+}
+
+#hero-section .booking-form-box .details-box .input-group-btn ul {
+    font-size: 14px;
+    color: #5A687B;
+    padding: 10px;
+    width: 50px;
+}
+
+#hero-section .booking-form-box .details-box .input-group-btn ul a {
+    font-size: 14px;
+    color: #5A687B;
+    padding: 5px 0;
+    display: block;
+}
+
+#hero-section .booking-form-box .details-box .input-group-btn ul a:hover {
+    text-decoration: none;
+}
+
+#hero-section .booking-form-box .details-box #txt-search {
+    border-radius: 0 5px 5px 0;
+}
+
+#hero-section .booking-form-box .form-group {
+    margin-bottom: 15px;
+}
+
+#hero-section .custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #DC0B0B;
+    background-color: #DC0B0B;
+}
+
+#hero-section .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: none;
+}
+
+#hero-section .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+    border-color: #DC0B0B;
+}
+
+#hero-section .button-box label {
+    font-size: 11px;
+    text-transform: capitalize;
+    color: rgba(113, 113, 113, 0.67);
+}
+
+/*Fleet Flying Section*/
+#fleet-flying-section {
+    background: #FBFBFB;
+    padding: 155px 0 120px;
+}
+
+#fleet-flying-section .booking-box{
+    padding-top: 145px;
+}
+
+#fleet-flying-section .fleet-item h4{
+    font-size: 14px;
+    padding-top: 8px;
+    font-weight: 700;
+}
+#fleet-flying-section .fleet-item h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+#fleet-flying-section .fleet-item ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.booking-box{
+    max-width: 681px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#fleet-flying-section .text-box{
+    border-right: #EAE8E8 solid 1px;
 }
