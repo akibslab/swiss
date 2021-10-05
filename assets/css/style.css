@@ -105,6 +105,19 @@ h4.barlow {
 .button-primary-white:hover {
     color: #FFFFFF;
 }
+.button-primary-red {
+    font-size: 14px;
+    line-height: 18px;
+    color: #FF0000;
+    border: 1px solid #FF0000;
+    border-radius: 52px;
+    padding: 8px 20px;
+    font-weight: 700;
+}
+
+.button-primary-red:hover {
+    color: #FF0000;
+}
 
 .button-secondary {
     font-family: Barlow;
@@ -930,3 +943,20 @@ footer .link {
 #fleet-flying-section .text-box{
     border-right: #EAE8E8 solid 1px;
 }
+
+/*contact section*/
+#contact-us-section{
+    padding: 66px 0 182px;
+}
+#contact-us-section .info-item {
+    padding-bottom: 25px;
+}
+#contact-us-section .info-item p {
+    margin-bottom: 10px;
+}
+#contact-us-section .info-item .link {
+    font-family: Roboto;
+    font-weight: 500;
+    color: #D76060;
+}
+
