@@ -244,14 +244,15 @@ h4.barlow {
 }
 
 
-/* Primary check box */
+/* The container */
 .primary-check-box {
     display: block;
     position: relative;
-    padding-left: 40px;
+    padding-left: 46px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 12px;
+    line-height: 158.5%;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -270,27 +271,28 @@ h4.barlow {
   /* Create a custom checkbox */
   .primary-check-box .checkmark {
     position: absolute;
-    top: 0;
+    top: 4px;
     left: 0;
     height: 20px;
     width: 20px;
     border-radius: 4px;
     background-color: #FBFBFB;
-    border: 1px solid  #ccc;;
+    border: 1px solid  #ccc;
   }
   
   /* On mouse-over, add a grey background color */
   .primary-check-box:hover input ~ .checkmark {
-    background-color: #ccc;
+    background-color: #FBFBFB;
   }
   
   /* When the checkbox is checked, add a blue background */
   .primary-check-box input:checked ~ .checkmark {
-    background: #FBFBFB;
+    background-color:  #DC0B0B;
+    border-color: #DC0B0B;
   }
   
   /* Create the checkmark/indicator (hidden when not checked) */
-  .primary-check-box:after {
+  .primary-check-box .checkmark:after {
     content: "";
     position: absolute;
     display: none;
@@ -303,11 +305,11 @@ h4.barlow {
   
   /* Style the checkmark/indicator */
   .primary-check-box .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
+    left: 7px;
+    top: 2px;
+    width: 6px;
+    height: 13px;
+    border: solid #fff;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -1067,7 +1069,7 @@ footer .link {
     font-size: 14px;
 }
 
-.booking-box {
+#fleet-flying-section .booking-box {
     max-width: 681px;
     width: 100%;
     margin: 0 auto;
@@ -1114,7 +1116,6 @@ footer .link {
     border-radius: 3px;
     margin-bottom: 37px;
 }
-
 
 /* Intro Section */
 #intro-section {
@@ -1216,4 +1217,18 @@ footer .link {
 
 #the-fleet-section .the-fleet-featured-item .text {
     line-height: 18px;
+}
+
+
+/* FAQ Section */
+#faq-section{
+    padding: 66px 0 170px;
+}
+
+#faq-section .card-header{
+    background: none;
+}
+
+#faq-section .card{
+    border: none;
 }
