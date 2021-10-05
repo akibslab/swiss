@@ -209,6 +209,77 @@ h4.barlow {
 }
 
 
+/* Primary check box */
+.primary-check-box {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .primary-check-box input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .primary-check-box .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+    background-color: #FBFBFB;
+    border: 1px solid  #ccc;;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .primary-check-box:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .primary-check-box input:checked ~ .checkmark {
+    background: #FBFBFB;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .primary-check-box:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .primary-check-box input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .primary-check-box .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
 /* Header Area */
 header .topbar {
     padding: 8px 0 7px;
@@ -948,15 +1019,34 @@ footer .link {
 #contact-us-section{
     padding: 66px 0 182px;
 }
-#contact-us-section .info-item {
+
+#contact-us-section .info-box .info-item {
     padding-bottom: 25px;
 }
-#contact-us-section .info-item p {
+
+#contact-us-section .info-box .info-item p {
     margin-bottom: 10px;
 }
-#contact-us-section .info-item .link {
+
+#contact-us-section .info-box .info-item .link {
     font-family: Roboto;
     font-weight: 500;
     color: #D76060;
+}
+
+#contact-us-section .contact-us-form-box .form-control {
+    min-height: 45px;
+    border: 1px solid #EAEAEA;
+    border-radius: 3px;
+}
+
+#contact-us-section .contact-us-form-box .btn{
+    width: 100%;
+    color: #FFFFFF;
+    height: 45px;
+    background: #DC0B0B;
+    border: 1px solid #EAEAEA;
+    border-radius: 3px;
+    margin-bottom: 37px;
 }
 
