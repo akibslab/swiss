@@ -1226,13 +1226,24 @@ footer .link {
 
 /* FAQ Section */
 #faq-section{
-    padding: 66px 0 170px;
+    padding: 72px 0 195px;
 }
 
 #faq-section .card-header{
     background: none;
+    padding: 30px 0 30px;
 }
 
 #faq-section .card{
     border: none;
+}
+
+#faq-section .card-header span {
+    margin-right: 15px;
+    font-size: 22px;
+    color: #F00;
+    font-weight: 700;
+}
+#faq-section .section-header-secondary{
+    margin-bottom: 80px;
 }
