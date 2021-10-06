@@ -212,7 +212,7 @@ h4.barlow {
     top: 0;
     left: 0;
     width: 27px;
-    height: 1px;
+    height: 2px;
     background: #FF0202;
 }
 
@@ -223,6 +223,12 @@ h4.barlow {
 .section-header-secondary h1 {
     color: #DC0B0B;
     margin-bottom: 20px;
+}
+
+.section-header-secondary.barlow h3 {
+    font-family: Barlow;
+    font-weight: 400;
+    letter-spacing: -0.055em;
 }
 
 .section-header-secondary p {
@@ -1131,6 +1137,10 @@ footer .link {
     margin-bottom: 30px;
 }
 
+#intro-section .section-header-secondary.top-border::after {
+    height: 1px;
+}
+
 #intro-section .intro-content-box img {
     width: 115%;
     max-width: initial;
@@ -1235,4 +1245,140 @@ footer .link {
 
 #faq-section .card{
     border: none;
+}
+
+
+/* Upcoming Legs Section */
+#upcoming-legs-section {
+    padding: 80px 0 90px;
+    background: #F8F8F8;
+}
+
+#upcoming-legs-section .section-header-secondary {
+    margin-bottom: 40px;
+}
+
+#upcoming-legs-section .section-header-secondary h3 {
+    max-width: 316px;
+    width: 100%;
+}
+
+#upcoming-legs-section .table-responsive {
+    background: #fff;
+    padding: 0 25px;
+    margin-bottom: 45px;
+}
+
+#upcoming-legs-section .table-responsive table {
+    width: 100%;
+}
+
+#upcoming-legs-section .table-responsive table tr {
+    border-bottom: 1px solid #F0F0F0;
+}
+
+#upcoming-legs-section .table-responsive table tr:last-child {
+    border-bottom: none;
+}
+
+#upcoming-legs-section .table-responsive table tr td {
+    padding: 20px 0;
+}
+
+#upcoming-legs-section .table-responsive table .destinations {
+    font-size: 17px;
+    line-height: 107.34%;
+    color: #000000;
+}
+
+#upcoming-legs-section .table-responsive table .destinations img {
+    margin: 0 20px;
+}
+
+#upcoming-legs-section .table-responsive table .date {
+    color: #5A687B;
+}
+
+#upcoming-legs-section .table-responsive table .aircraft {
+    font-family: Barlow;
+    font-size: 14px;
+    letter-spacing: -0.055em;
+    color: #6C6C6C;
+    text-align: right;
+}
+
+#upcoming-legs-section .table-responsive table .aircraft .model {
+    font-weight: 500;
+    color: #000000;
+    margin-left: 10px;
+}
+
+#upcoming-legs-section .link {
+    font-family: Barlow;
+    font-size: 13px;
+    letter-spacing: -0.055em;
+    color: #000000;
+}
+
+#upcoming-legs-section .link:hover {
+    text-decoration: none;
+}
+
+#upcoming-legs-section .link img {
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+
+/* Short FAQ Section */
+#short-faq-section {
+    padding: 108px 0 170px;
+}
+
+#short-faq-section .section-header-secondary h2 {
+    max-width: 332px;
+    width: 100%;
+}
+
+#short-faq-section .short-faq-box {
+    margin-bottom: 28px;
+}
+
+#short-faq-section .short-faq-box .odd {
+    padding-right: 60px;
+}
+
+#short-faq-section .short-faq-box .even {
+    padding-left: 60px;
+}
+
+#short-faq-section .short-faq-item {
+    margin-bottom: 58px;
+}
+
+#short-faq-section .short-faq-item .icon {
+    margin-bottom: 13px;
+}
+
+#short-faq-section .short-faq-item h3 {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#short-faq-section .short-faq-item p {
+    font-weight: 400;
+}
+
+#short-faq-section .link {
+    font-size: 17px;
+    color: #000000;
+}
+
+#short-faq-section .link:hover {
+    text-decoration: none;
+}
+
+#short-faq-section .link img {
+    margin-top: -5px;
+    margin-left: 5px;
 }
