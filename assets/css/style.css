@@ -1580,3 +1580,38 @@ footer .link {
     color: #000000;
     margin-left: 10px;
 }
+
+/* Pets Section */
+
+#pets-section .section-header-secondary {
+    padding: 66px 0 57px;
+}
+#pets-section .section-header-secondary {
+    margin-bottom: 0;
+}
+#pets-section .pet-intro{
+    max-width: 682px;
+    width: 100%;
+    margin-bottom: 68px;
+}
+/* pets heiglight box */
+#pet-heighlight-box{
+    padding-top: 25px;
+}
+#pet-heighlight-box .pet-info-box{
+    background: #D83333;
+    color: #FFFFFF;
+    width: 513px;
+    height: 472px;
+}
+
+#pet-heighlight-box .pet-info-list ul{
+    list-style: none;
+    margin-bottom: 0;
+    padding: 55px;
+}
+#pet-heighlight-box .pet-info-list ul li{
+    border-bottom: 1px solid #EE4D4D;
+    padding: 22px 0 22px;
+}
+
