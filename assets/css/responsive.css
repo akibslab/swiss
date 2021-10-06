@@ -39,6 +39,10 @@
 		z-index: 10;
 	}
 
+	.section-header-secondary {
+	    margin-bottom: 25px;
+	}
+
 	header .menu {
 		display: none;
 	}
@@ -137,6 +141,27 @@
 	#fleet-flying-section .booking-box {
 	    margin-top: 50px;
 	}
+
+	#contact-us-section {
+		padding: 33px 0 91px;
+		background-size: 50%;
+	}
+
+	#contact-us-section .contact-us-form-box {
+	    margin-left: 0;
+	}
+
+	#contact-us-section .info-box {
+		margin-bottom: 25px;
+	}
+
+	#faq-section {
+	    padding: 36px 0 100px;
+	}
+
+	#faq-section .section-header-secondary {
+	    margin-bottom: 40px;
+	}
 }
 
 
@@ -145,5 +170,15 @@
 
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) { 
+	#contact-us-section {
+		background-size:  45% 100%;
+	}
 
+	#contact-us-section .contact-us-form-box {
+	    margin-left: -30px;
+	}
+
+	#contact-us-section .info-box {
+		margin-bottom: 0;
+	}
 }
