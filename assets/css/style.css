@@ -1243,6 +1243,7 @@ footer .link {
     padding: 72px 0 195px;
 }
 
+
 #faq-section .card-header {
     padding: 0;
     background: none;
@@ -1405,4 +1406,177 @@ footer .link {
 #short-faq-section .link img {
     margin-top: -5px;
     margin-left: 5px;
+}
+
+
+/* Empty Leg Section */
+#empty-legs-section .section-header-secondary p{
+    max-width: 316px;
+    width: 100%;
+}
+#empty-legs-section .section-header-secondary{
+    padding: 66px 0 31px;
+}
+
+
+
+#empty-legs-section .filter-form-box .primary-inputs {
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin-bottom: 26px;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .input-item {
+    width: 25%;
+    padding: 10px 15px;
+    border-right: 1px solid #EEEEEE;
+    position: relative;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5A687B;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .input-item:last-of-type {
+    border-right: none;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .input-item .icon {
+    max-width: 20px;
+    margin-right: 5px;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .input-item .select-primary-toggle {
+    user-select: none;
+    cursor: pointer;
+    padding: 10px 5px;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .input-item input {
+    border: none;
+    cursor: pointer;
+    width: calc(100% - 25px);
+    font-size: 14px;
+    line-height: 18px;
+    color: #5A687B;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .input-item input#datePicker {
+    padding: 10px 5px;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .input-item input.quantity-field {
+    width:20px;
+    text-align: right;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .input-item input:focus {
+    outline: 0;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .input-item .input-group img {
+    cursor: pointer;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .select-primary-dropdown {
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #EEE;
+    padding: 0;
+    margin-top: -10px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    z-index: 1;
+    height: 150px;
+    overflow-y: scroll;
+    display: none;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .select-primary-dropdown li a {
+    padding: 15px;
+    display: block;
+    color: #5A687B;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .select-primary-dropdown li a {
+    padding: 15px;
+    display: block;
+    color: #5A687B;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .select-primary-dropdown li a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .select-primary-dropdown li a span {
+    margin-right: 5px;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .name {
+    margin-right: 25px;
+}
+
+#empty-legs-section .filter-form-box .primary-inputs .model {
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.055em;
+    color: #000000;
+}
+
+#empty-legs-section .table-responsive {
+    background: #fff;
+    padding: 0 25px;
+    margin-bottom: 45px;
+}
+
+#empty-legs-section .table-responsive table {
+    width: 100%;
+}
+
+#empty-legs-section .table-responsive table tr {
+    border-bottom: 1px solid #F0F0F0;
+}
+
+#empty-legs-section .table-responsive table tr:last-child {
+    border-bottom: none;
+}
+
+#empty-legs-section .table-responsive table tr td {
+    padding: 20px 0;
+}
+
+#empty-legs-section .table-responsive table .destinations {
+    font-size: 17px;
+    line-height: 107.34%;
+    color: #000000;
+}
+
+#empty-legs-section .table-responsive table .destinations img {
+    margin: 0 20px;
+}
+
+#empty-legs-section .table-responsive table .date {
+    color: #5A687B;
+}
+
+#empty-legs-section .table-responsive table .aircraft {
+    font-family: Barlow;
+    font-size: 14px;
+    letter-spacing: -0.055em;
+    color: #6C6C6C;
+    text-align: right;
+}
+
+#empty-legs-section .table-responsive table .aircraft .model {
+    font-weight: 500;
+    color: #000000;
+    margin-left: 10px;
 }
