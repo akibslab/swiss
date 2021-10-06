@@ -1093,7 +1093,7 @@ footer .link {
     background-image: url(../img/bg/contact.png);
     background-repeat: no-repeat;
     background-position: top right;
-    background-size: contain;
+    background-size: 45% 100%;
 }
 
 
@@ -1109,6 +1109,10 @@ footer .link {
     font-family: Roboto;
     font-weight: 500;
     color: #D76060;
+}
+
+#contact-us-section .contact-us-form-box {
+    margin-left: -30px;
 }
 
 #contact-us-section .contact-us-form-box .form-control {
@@ -1239,24 +1243,34 @@ footer .link {
     padding: 72px 0 195px;
 }
 
-#faq-section .card-header{
+#faq-section .card-header {
+    padding: 0;
     background: none;
-    padding: 30px 0 30px;
 }
 
-#faq-section .card{
+#faq-section .card-header h5 {
+    cursor: pointer;
+    padding: 30px 0 30px 30px;
+    position: relative;
+}
+
+#faq-section .card {
     border: none;
 }
 
 #faq-section .card-header span {
-    margin-right: 15px;
     font-size: 22px;
     color: #F00;
     font-weight: 700;
+    position: absolute;
+    top: 27px;
+    left: 5px;
 }
-#faq-section .section-header-secondary{
+
+#faq-section .section-header-secondary {
     margin-bottom: 80px;
 }
+
 
 /* Upcoming Legs Section */
 #upcoming-legs-section {
