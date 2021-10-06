@@ -1084,6 +1084,10 @@ footer .link {
 /*contact section*/
 #contact-us-section{
     padding: 66px 0 182px;
+    background-image: url(../img/bg/contact.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
 }
 
 
