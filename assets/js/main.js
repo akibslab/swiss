@@ -125,20 +125,6 @@
 	        $(this).parents('.input-group').find('.select-primary-input').val(catInput);
 	    });
 
-
-	    // Featured Drawer Show/Hide
-	    $('#featured-section .featured-drawer-btn').on('click',function(){
-	    	$('.featured-drawer').removeClass('active');
-	    	$('#drawer-'+$(this).attr('data-index')).addClass('active');
-	    	$('body').addClass('overlay');
-	    });
-
-	    $('.featured-drawer .cross').on('click',function(e){
-	    	e.preventDefault();
-	    	$(this).parents('.featured-drawer').removeClass('active');
-	    	$('body').removeClass('overlay');
-	    });
-
         
     });
 
