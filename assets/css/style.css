@@ -253,7 +253,7 @@ h4.barlow {
 
 .section-header-secondary .quote {
     font-size: 16px;
-    color: #000000;
+    color: #898989;
 }
 
 .red {
@@ -322,10 +322,10 @@ h4.barlow {
   
   /* Style the checkmark/indicator */
   .primary-check-box .checkmark:after {
-    left: 7px;
+    left: 6px;
     top: 2px;
     width: 6px;
-    height: 13px;
+    height: 12px;
     border: solid #fff;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
@@ -1056,8 +1056,8 @@ footer .link {
     margin-bottom: 50px;
 }
 
-#fleet-flying-section .booking-box {
-    margin-top: 145px;
+#fleet-flying-section #fleet-flying-carousel {
+    margin-bottom: 145px;
 }
 
 #fleet-flying-section .fleet-item {
@@ -1595,6 +1595,7 @@ footer .link {
     max-width: 316px;
     width: 100%;
 }
+
 #empty-legs-section .section-header-secondary{
     padding: 66px 0 31px;
 }
@@ -1760,42 +1761,48 @@ footer .link {
     margin-left: 10px;
 }
 
-/* Pets Section */
-
-#pets-section .section-header-secondary {
+/* Pets Intor Section */
+#pets-intro--section .section-header-secondary {
     padding: 66px 0 57px;
 }
 
-#pets-section .section-header-secondary {
-    margin-bottom: 0;
+#pets-intro-section .section-header-secondary {
+    margin-bottom: 25px;
 }
 
-#pets-section .pet-intro{
+#pets-intro-section .section-header-secondary p {
+    max-width: 451px;
+}
+
+#pets-intro-section .pet-intro-box {
     max-width: 682px;
     width: 100%;
     margin-bottom: 68px;
 }
 
 
-/* pets heiglight box */
-#pet-heighlight-box{
-    padding-top: 25px;
-}
-
-#pet-heighlight-box .pet-info-box {
+/* Pets Heighlight Section */
+#pets-heighlight-section .pet-heighlight-box {
     background: #D83333;
-    color: #FFFFFF;
-    width: 513px;
-    height: 472px;
+    color: #fff;
+    max-width: 513px;
+    width: 100%;
 }
 
-#pet-heighlight-box .pet-info-list ul {
+#pets-heighlight-section .pet-heighlight-box ul {
     list-style: none;
-    margin-bottom: 0;
-    padding: 55px;
+    margin: 0;
+    padding: 60px 77px 95px 58px;
+    font-size: 20px;
+    line-height: 119%;
+    letter-spacing: 0.015em;
 }
 
-#pet-heighlight-box .pet-info-list ul li {
+#pets-heighlight-section .pet-heighlight-box ul li {
+    padding: 30px 0;
     border-bottom: 1px solid #EE4D4D;
-    padding: 22px 0 22px;
+}
+
+#pets-heighlight-section .pet-heighlight-box ul li:last-child {
+    border-bottom: none;
 }
